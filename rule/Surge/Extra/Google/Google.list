@@ -1,0 +1,39 @@
+# > Google Search
+DOMAIN-KEYWORD,www.google.
+
+# > Google Voice
+DOMAIN,lens.l.google.com
+
+# > Google Drive
+PROCESS-NAME,Backup and Sync
+USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
+USER-AGENT,Google.Drive*
+USER-AGENT,*com.google.Drive*
+DOMAIN-SUFFIX,docs.google.com
+DOMAIN-SUFFIX,drive.google.com
+DOMAIN-SUFFIX,googledrive.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN,www.googleapis.com
+
+# > YouTubeMusic
+# ⚠️ 注意，需要放置在 YouTube.list 之前，且不适用于 Quantumult X 及浏览器环境
+DOMAIN,music.youtube.com
+
+# > YouTube
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,withyoutube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtubegaming.com
+DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN,youtubei.googleapis.com
+DOMAIN,yt3.ggpht.com
+
+# Other
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
