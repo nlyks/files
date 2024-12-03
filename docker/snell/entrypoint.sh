@@ -16,14 +16,25 @@ generate_config() {
     PORT=${PORT:-$(random_port)}
     PSK=${PSK:-$(random_psk)}
     IPV6=${IPV6:-true}
-    DNS=${DNS:-1.1.1.1}
-    cat > /etc/snell-server.conf <<EOF
+
+    if [ -z "$DNS" ]; then
+        # 如果未设置 DNS，生成不包含 DNS 的配置
+        cat > /etc/snell-server.conf <<EOF
 [snell-server]
-listen=0.0.0.0:$PORT
+listen=::0:$PORT
+psk=$PSK
+ipv6=$IPV6
+EOF
+    else
+        # 如果设置了 DNS，生成包含 DNS 的配置
+        cat > /etc/snell-server.conf <<EOF
+[snell-server]
+listen=::0:$PORT
 psk=$PSK
 ipv6=$IPV6
 dns=$DNS
 EOF
+    fi
 }
 
 generate_config

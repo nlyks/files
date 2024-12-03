@@ -1,6 +1,6 @@
 FROM alpine:latest AS download
 ARG TARGETPLATFORM
-ARG VERSION=v4.1.0rc1
+ARG VERSION=v4.1.1
 WORKDIR /root
 RUN  apk add --no-cache wget unzip ca-certificates \
     && case "${TARGETPLATFORM}" in \
