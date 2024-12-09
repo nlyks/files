@@ -1,0 +1,65 @@
+{
+    "name": "Icon Set Name",
+    "icons": [
+        {
+            "name": "Apple",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/Apple.png"
+        },
+        {
+            "name": "Disney",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/DisneyPlus.png"
+        },
+        {
+            "name": "Google",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/Google.png"
+        },
+        {
+            "name": "Apple",
+            "url": ""
+        },
+        {
+            "name": "Netflix",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/Netflix.png"
+        },
+        {
+            "name": "Openai01",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/Openai_01.png"
+        },
+        {
+            "name": "Openai02",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/Openai_02.png"
+        },
+        {
+            "name": "Openai03",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/Openai_03.png"
+        },
+        {
+            "name": "Telegram",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/Telegram.png"
+        },
+        {
+            "name": "HK",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/HK.png"
+        },
+        {
+            "name": "JP",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/JP.png"
+        },
+        {
+            "name": "KR",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/KR.png"
+        },
+        {
+            "name": "SG",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/SG.png"
+        },
+        {
+            "name": "TW",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/TW.png"
+        },
+        {
+            "name": "US",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/US.png"
+        }
+    ]
+}
