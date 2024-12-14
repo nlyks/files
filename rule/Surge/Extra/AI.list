@@ -62,3 +62,6 @@ DOMAIN-SUFFIX, grazie.ai
 # Meta
 DOMAIN, imagine.meta.com
 DOMAIN-SUFFIX, meta.ai
+
+# Gork
+DOMAIN-SUFFIX,x.ai
