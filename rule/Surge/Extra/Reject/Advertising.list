@@ -1,7 +1,6 @@
 # Advertising
 # > General
 DOMAIN-KEYWORD,adservice
-
 DOMAIN-SUFFIX,1phads.com
 DOMAIN-SUFFIX,1rtb.com
 DOMAIN-SUFFIX,1xl.co.uk
@@ -940,3 +939,6 @@ IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
 # > ZOL
 DOMAIN,apppv.zol.com.cn
 DOMAIN,pvnapp.zol.com.cn
+# Other
+PROTOCOL,STUN,REJECT
+AND,((PROTOCOL,UDP), (DEST-PORT,443)),REJECT-NO-DROP

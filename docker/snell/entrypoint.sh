@@ -37,8 +37,15 @@ EOF
     fi
 }
 
-generate_config
-echo -e "\033[32m$(cat ${CONF})\033[0m"
-
-${BIN} -c ${CONF}
+if [ -f "${CONF}" ]; then
+    # 配置文件存在，直接使用
+    echo "Using existing configuration file: ${CONF}"
+    ${BIN} -c ${CONF}
+else
+    # 配置文件不存在，生成配置
+    echo "Configuration file not found, generating a new one."
+    generate_config
+    echo -e "\033[32m$(cat ${CONF})\033[0m"
+    ${BIN} -c ${CONF}
+fi
 
