@@ -50,18 +50,23 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 
 # Copilot
-DOMAIN, api.githubcopilot.com
-DOMAIN, copilot-proxy.githubusercontent.com
-DOMAIN, copilot.microsoft.com
-DOMAIN, sydney.bing.com
-DOMAIN, www.bing.com
+DOMAIN,api.githubcopilot.com
+DOMAIN,copilot-proxy.githubusercontent.com
+DOMAIN,copilot.microsoft.com
+DOMAIN,sydney.bing.com
+DOMAIN,www.bing.com
 
 # JetBrains AI
-DOMAIN-SUFFIX, grazie.ai
+DOMAIN-SUFFIX,grazie.ai
 
 # Meta
-DOMAIN, imagine.meta.com
-DOMAIN-SUFFIX, meta.ai
+DOMAIN,imagine.meta.com
+DOMAIN-SUFFIX,meta.ai
 
 # Gork
 DOMAIN-SUFFIX,x.ai
+
+# DeepSeek
+DOMAIN-SUFFIX,portal101.cn
+DOMAIN-SUFFIX,volces.com
+DOMAIN-SUFFIX,deepseek.com
