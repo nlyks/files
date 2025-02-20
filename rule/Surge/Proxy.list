@@ -490,6 +490,9 @@ DOMAIN,books.itunes.apple.com // iBooks Store download
 DOMAIN,facetime.apple.com // FaceTime Links
 DOMAIN,lookup-api.apple.com // Look Up
 DOMAIN,radio.itunes.apple.com // Apple Music Radio
+# TestFlight
+DOMAIN,beta.apple.com
+DOMAIN,testflight.apple.com
 # > Web Preview
 DOMAIN,apps.apple.com
 DOMAIN,books.apple.com
