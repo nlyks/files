@@ -1,6 +1,6 @@
 FROM alpine:latest AS download
 ARG TARGETPLATFORM
-ARG VERSION=v4.1.1
+ARG VERSION=v5.0.0b3
 WORKDIR /root
 RUN  apk add --no-cache wget unzip ca-certificates \
     && case "${TARGETPLATFORM}" in \
@@ -14,9 +14,9 @@ RUN  apk add --no-cache wget unzip ca-certificates \
 	&& unzip snell-server.zip \
 	&& chmod +x snell-server
 
-FROM nlykvbm/alpine-glibc:latest
-RUN apk add --no-cache tini
+FROM debian:stable-slim
+RUN apt update && apt install -y tini
 COPY --from=download /root/snell-server /usr/local/bin/snell-server
 COPY entrypoint.sh /root/
 RUN chmod +x /root/entrypoint.sh
-ENTRYPOINT ["/sbin/tini", "--", "/root/entrypoint.sh"]
+ENTRYPOINT ["/usr/bin/tini", "--", "/root/entrypoint.sh"]
