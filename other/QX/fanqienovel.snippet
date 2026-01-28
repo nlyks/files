@@ -1,53 +1,35 @@
-# > 番茄小说
-host,zlink.ugsdk.cn,reject
-host,mon.toutiaocloud.net,reject
-host,lf-normal-gr-sourcecdn.bytegecko.com,reject
-host,lf-webcast-gr-sourcecdn.bytegecko.com,reject
-host,p3-developer.bytemaimg.com,reject
-host,webcast-open.douyin.com,reject
-host,p11-webcast-sign.douyinpic.com,reject
-host,p3-webcast-sign.douyinpic.com,reject
-host,log3-applog.fqnovel.com,reject
-host,log5-applog.fqnovel.com,reject
-host,mon11-misc-lq.fqnovel.com,reject
-host,mon11-misc.fqnovel.com,reject
-host,mon3-misc.fqnovel.com,reject
-host,rtlog3-applog.fqnovel.com,reject
-host,rtlog5-applog.fqnovel.com,reject
-host,effect.snssdk.com,reject
-host,i.snssdk.com,reject
-host,is-lq.snssdk.com,reject
-host,is.snssdk.com,reject
-host,security.snssdk.com,reject
-host,vas.snssdk.com,reject
-host,mon.toutiaocloud.com,reject
-host,abtest3-misc.zijieapi.com,reject
-host,ads3-normal.zijieapi.com,reject
-host,ads5-normal.zijieapi.com,reject
-host,feedback-c.zijieapi.com,reject
-host,gecko3.zijieapi.com,reject
-host,gecko5.zijieapi.com,reject
-host,ma.zijieapi.com,reject
-host,minigame3-normal.zijieapi.com,reject
-host,minigame5-normal.zijieapi.com,reject
-host,mssdk.zijieapi.com,reject
-host,timon.zijieapi.com,reject
-host,vcs.zijieapi.com,reject
-
-# > 番茄小说
-# 去章末广告
-^https?:\/\/.+\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/(get_ads|stats|settings)\/ url reject
-^https?:\/\/.+\.pglstatp-toutiao\.com\/.+\/toutiao\.mp4 url reject
-^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(obj|img)\/(ad-app-package|ad)\/.+ url reject
-^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(obj|img)\/web\.business\.image\/.+ url reject
-^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/obj\/ad-pattern\/renderer url reject
-^https?:\/\/gurd\.snssdk\.com\/src\/server\/v3\/package url reject
-^https?:\/\/.+\.byteimg.com/tos-cn-i-1yzifmftcy\/(.+)-jpeg\.jpeg url reject
-^https?:\/\/.+\.pstatp\.com\/obj\/mosaic-legacy\/.+\?from\=ad url reject
-^https?:\/\/.+\.pstatp\.com\/bytecom\/resource\/track_log\/src\/.+ url reject
-^https?:\/\/.+\.snssdk\.com\/video\/play\/1\/toutiao\/.+\/mp4 url reject
-^https?:\/\/.+\.snssdk.com\/api\/ad\/.+ url reject
-^https?:\/\/.+\.byteimg\.com\/ad-app-package url reject
-^https?:\/\/.+\.byteimg\.com\/web\.business\.image url reject
-
-hostname = *.pangolin-sdk-toutiao.com, *.pangolin-sdk-toutiao.*, *.pstatp.com, *.pstatp.com.*, *.pglstatp-toutiao.com.*, *.pglstatp-toutiao.com, gurd.snssdk.com, gurd.snssdk.com.*, i-lq.snssdk.com, i-lq.snssdk.com.*, *default.ixigua.com
+[Rule]
+host,zlink.ugsdk.cn,REJECT
+host,mon.toutiaocloud.net,REJECT
+host,lf-normal-gr-sourcecdn.bytegecko.com,REJECT
+host,lf-webcast-gr-sourcecdn.bytegecko.com,REJECT
+host,p3-developer.bytemaimg.com,REJECT
+host,webcast-open.douyin.com,REJECT
+host,p11-webcast-sign.douyinpic.com,REJECT
+host,p3-webcast-sign.douyinpic.com,REJECT
+host,log3-applog.fqnovel.com,REJECT
+host,log5-applog.fqnovel.com,REJECT
+host,mon11-misc-lq.fqnovel.com,REJECT
+host,mon11-misc.fqnovel.com,REJECT
+host,mon3-misc.fqnovel.com,REJECT
+host,rtlog3-applog.fqnovel.com,REJECT
+host,rtlog5-applog.fqnovel.com,REJECT
+host,effect.snssdk.com,REJECT
+host,i.snssdk.com,REJECT
+host,is-lq.snssdk.com,REJECT
+host,is.snssdk.com,REJECT
+host,security.snssdk.com,REJECT
+host,vas.snssdk.com,REJECT
+host,mon.toutiaocloud.com,REJECT
+host,abtest3-misc.zijieapi.com,REJECT
+host,ads3-normal.zijieapi.com,REJECT
+host,ads5-normal.zijieapi.com,REJECT
+host,feedback-c.zijieapi.com,REJECT
+host,gecko3.zijieapi.com,REJECT
+host,gecko5.zijieapi.com,REJECT
+host,ma.zijieapi.com,REJECT
+host,minigame3-normal.zijieapi.com,REJECT
+host,minigame5-normal.zijieapi.com,REJECT
+host,mssdk.zijieapi.com,REJECT
+host,timon.zijieapi.com,REJECT
+host,vcs.zijieapi.com,REJECT
