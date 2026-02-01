@@ -104,6 +104,30 @@
         {
             "name": "US_03",
             "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/US_03.png"
-        }
+        },
+        {
+            "name": "Loon",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/loon.png"
+        },
+        {
+            "name": "bilibili",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/bilibili.png"
+        },        
+        {
+            "name": "fallback",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/fallback.png"
+        },        
+        {
+            "name": "select",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/select.png"
+        },        
+        {
+            "name": "spotify",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/spotify.png"
+        },        
+        {
+            "name": "youtube",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/youtube.png"
+        },
     ]
 }
