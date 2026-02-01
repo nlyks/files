@@ -129,5 +129,17 @@
             "name": "youtube",
             "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/youtube.png"
         },
+        {
+            "name": "qx",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/Quantumult_X.png"
+        },
+        {
+            "name": "reject",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/Reject.png"
+        },
+        {
+            "name": "relay",
+            "url": "https://raw.githubusercontent.com/nlyks/files/main/other/icon/relay.png"
+        }
     ]
 }
