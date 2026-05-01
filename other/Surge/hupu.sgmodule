@@ -1,0 +1,8 @@
+#!name=Hupu
+#!desc=修复 hupu 重定向
+
+[URL Rewrite]
+^https:\/\/m\.hupu\.com\/bbs\/(\d+)$ https://bbs.hupu.com/$1.html 307
+
+[MITM]
+hostname = %APPEND% m.hupu.com
