@@ -1,0 +1,8 @@
+#!name=sspai
+#!desc=修复 sspai rss 图片显示
+
+[Header Rewrite]
+http-request ^https://cdnfile\.sspai\.com/ header-add Referer sspai.com
+
+[MITM]
+hostname = %APPEND% cdnfile.sspai.com
